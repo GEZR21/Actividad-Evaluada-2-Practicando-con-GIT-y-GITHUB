@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+
+<html lang="es">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    
+     
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css"/>
+    
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+   
+    <title>PAGINA PRINCIPAL</title>
+
+</head>
+
+<body>
+    
+    <nav class="navbar navbar-expand-lg navbar-light bg-info fixed-top">
+        <div class="container">
+             <a href="/" class="navbar-brand">Bootstrap</a>
+
+             <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                  <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                       <li class="nav-item">
+                            <a href="#inicio" class="nav-link active" aria-current="page">
+                                 Inicio
+                            </a>
+                       </li>
+                       <li class="nav-item">
+                            <a href="#servicios" class="nav-link"> Servicios </a>
+                       </li>
+                       <li class="nav-item">
+                            <a href="#comentarios" class="nav-link"> Comentarios </a>
+                       </li>
+                       <li class="nav-item">
+                            <a href="#suscribete" class="nav-link"> Suscríbete </a>
+                       </li>
+                  </ul>
+             </div>
+        </div>
+   </nav>
+   
+
+    
+    <section>
+        <div id="carousel1" class="carousel slide" data-bs-ride="true">
+            <div class="carousel-indicators">
+              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+            </div>
+  
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img src="img/1.jpg" class="d-block w-100" alt="slider1">
+              </div>
+              <div class="carousel-item">
+                <img src="img/2.jpg" class="d-block w-100" alt="slider2">
+              </div>
+              <div class="carousel-item">
+                <img src="img/3.jpg" class="d-block w-100" alt="slider3">
+              </div>
+            </div>
+  
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Atras</span>
+            </button>
+  
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Siguiente</span>
+            </button>
+       </div>
+</section>
+   
+
+    <hr>
+   
+    <section>
+    <div class="shadow-lg p-3 mb-5 container  alert alert-success text-center">
+        <h1>Listado de Series o Peliculas Favortitas</h1>
+        <h5>By Eliezer Zúniga</h5>
+    </div>
+</section>
+
+<section class="col-12 col-md-12 mb-5">
+  <div class="shadow-lg p-3 mb-5 container">
+    <div class="card-group">
+
+      <div class="card">
+        <img src="img/ww.jpg" class="card-img-top" alt="portada 1">
+        <div class="card-body">
+          <h5 class="card-title">1. WONDER WOMAN 1984</h5>
+          <p class="card-text">Acción/Fantasía</p>
+          <p class="card-text">Pelicula estadounidense de superhéroes basada en el personaje Mujer Maravilla, creado 
+            por William Moulton Marston para DC Comics.</p>
+          <p class="card-text">Estreno: 2020</p>
+        </div>
+        <div class="card-footer text-center">
+          <a href="pagina1.html" class="link-success"> 
+           Ir al Enlace
+          </a>
+        </div>
+      </div>
+
+      <div class="card">
+        <img src="img/cz.jpg" class="card-img-top" alt="portada 2">
+        <div class="card-body">
+           <h5 class="card-title">2. CONTROL Z</h5>
+           <p class="card-text">Drama</p>
+           <p class="card-text">Luego de que un hacker comienza a exponer los secretos de los estudiantes del Colegio Nacional 
+            frente a toda la escuela, la distante y observadora Sofía se dispone a descubrir su identidad.</p>
+           <p class="card-text">Estreno: 2020</p>
+        </div>
+        <div class="card-footer text-center">
+           <a href="pagina2.html" class="link-success">
+                Ir al Enlace
+           </a>
+        </div>
+      </div>
+
+      <div class="card">
+        <img src="img/a.jpg" class="card-img-top" alt="portada 3">
+        <div class="card-body">
+           <h5 class="card-title">3. AVATAR 2</h5>
+           <p class="card-text">Ciencia Ficción/Acción</p>
+           <p class="card-text">Jake Sully y Ney'tiri han formado una familia y hacen todo lo posible por permanecer juntos. Sin embargo, 
+            deben abandonar su hogar y explorar las regiones de Pandora cuando una antigua amenaza reaparece.</p>
+           <p class="card-text">Estreno: 2022</p>
+        </div>
+        <div class="card-footer text-center">
+           <a href="pagina3.html" class="link-success">
+                Ir al Enlace
+           </a>
+        </div>
+      </div>
+
+      <div class="card">
+        <img src="img/2.jpg" class="card-img-top" alt="portada 4">
+        <div class="card-body">
+             <h5 class="card-title">4. TABLAS EN HTML</h5>
+             <p class="card-text">HTML</p>
+             <p class="card-text">Uso de la Etiqueta table</p>
+             <p class="card-text">Clase Programación III</p>
+        </div>
+        <div class="card-footer text-center">
+             <a href="pagina4.html" class="link-success">
+                  Ir al Enlace
+             </a>
+        </div>
+      </div>
+</div>
+</div>
+</section>
+
+<hr>
+<section>
+          <div class="text-center alert-danger">
+               <h5>Ir a Literatura Favorita</h5>
+          </div>
+</section>
+
+        <section>
+  <div class="container">
+     <ul class="nav nav-pills nav-fill">
+        <li class="nav-item">
+          <a class="nav-link active bg-info" aria-current="page" href="#ancla1">1. DRACULA
+
+          </a>
+        </li>
+                                                              
+        <li class="nav-item">
+          <a class="nav-link active bg-primary" href="#ancla2">2. ROMEO Y JULIETA</a>
+        </li>
+                                                              
+        <li class="nav-item">
+          <a class="nav-link active bg-success" href="#ancla3">3. EL PRINCIPITO</a>
+        </li>
+
+      </ul>
+  </div>
+</section>
+                                                              
+    
+<!-- Aqui va un etiqueta HR -->
+<hr>
+
+<section>
+     <div class="text-center alert-warning">
+          <h1>LITERATURA FAVORITA
+
+          </h1>
+          <h5>By Eliezer Zúniga
+
+          </h5>
+     </div>
+</section>
+
+<hr>
+
+    <a name="ancla1">
+        <p class="text-center h1">1. DRACULA</p>
+    </a>
+    <p class="text-center">
+        Drácula nos presenta al vampiro más famoso de todos los tiempos. La terrorífica historia de un malvado conde que, desde su Transilvania natal, llega a Londres dispuesto a propagar el mal por el mundo. Jonathan Harker y su esposa Mina, Lucy y su prometido
+        Arthur, el doctor Seward y el sabio profesor Van Helsing se enfrentarán a la ira del conde Drácula. Alguno de ellos lo pagará con su vida. Contra los poderes sobrenaturales del vampiro, sus mejores armas serán la amistad, el coraje, el trabajo
+        en equipo y los amplios conocimientos del viejo profesor.
+    </p>
+
+<hr>
+    <a name="ancla2">
+        <p class="text-center h1">2. ROMEO Y JULIETA</p>
+    </a>
+
+    <p class="text-center">
+        La historia de Romeo y Julieta tiene antecedentes en la mitología y literatura griegas y en algunas leyendas medievales. Durante los siglos XV y XVI fue objeto de múltiples versiones, pero fue Shakespeare quien le infundió una pasión y un dramatismo inéditos
+        hasta entonces y que han contribuido a mantener la leyenda en la memoria colectiva. En Verona, dos jóvenes enamorados, de dos familias enemigas, son víctimas de una situación de odio y violencia que ni desean ni pueden remediar. En una de esas
+        tardes de verano en que el calor «inflama la sangre», Romeo, recién casado en secreto con su amada Julieta, mata al primo de ésta. A partir de ahí Shakespeare desencadena la tragedia y precipita los acontecimientos, guiados por el azar y la fatalidad.
+        Ángel-Luis Pujante destaca en esta edición la fuerza poética y retórica de ROMEO Y JULIETA: los juegos de palabras, la coexistencia de prosa y verso, de lo culto y lo coloquial, de lo lírico y lo dramático contribuyen a intensificar los contrastes
+        de la acción. Clara Calvo ofrece en la Guía de lectura una rica documentación complementaria y unas sugerentes propuestas que ayudan a enriquecer la lectura de esta obra capital de la literatura universal.
+    </p>
+
+<hr>
+    <a name="ancla3">
+        <p class="text-center h1">3. EL PRINCIPITO</p>
+    </a>
+
+    <p class="text-center">
+        El principito narra la historia de un piloto que, mientras intenta reparar su avión averiado en medio del desierto del Sahara, se topa con un pequeño príncipe proveniente del asteroide B 612, que le pide insistentemente que le dibuje un cordero y que
+        nunca olvida una pregunta. El piloto empezará a descubrir la fascinante historia del principito, que comienza en su asteroide, donde vivía con tres volcanes y se entretenía arrancando las malas hierbas y viendo puestas de sol. Un día, en el suelo
+        del asteroide, nace una flor. El principito la cuida y atiende con dedicación, pero la flor es dramática y caprichosa, y esto le molesta. Entonces, decide abandonar su hogar y emprender un viaje por el universo en busca de un amigo. En la travesía,
+        que llevará al principito a visitar varios asteroides hasta llegar a la Tierra, conocerá a un variado grupo de excéntricos personajes que lo convencen de lo extraño que es el mundo de los adultos, tan ocupados siempre en asuntos serios e importantes,
+        que se olvidan de disfrutar la vida. En la Tierra, el principito entrará en contacto con animales, flores y personas. Será allí donde, antes de encontrar al piloto, conocerá al zorro, quien le revelará la importancia de la amistad y el valor del
+        amor que siente hacia su flor. Será la nostalgia por ella y la decepción que le causa el mundo de los adultos lo que lo motivará a regresar a su planeta.
+    </p>
+
+      <hr>
+
+     <footer class="container-fluid py-5 text-center bg-dark text-white">
+          <a href="mailto:gersonruiz952@gmail.com?subject=Hola Mundo" class="link-light">
+              gersonruiz952@gmail.com
+          </a>
+
+          <br>
+
+          <a href="documentos/documento1.pdf" class="link-light">
+               Investigación de Microlearning, haz clic para descargar
+          </a>
+
+          <br>
+          <a href="archivos/documentos.zip" class="link-light">
+               Haz clic para descargar
+          </a>
+     </footer>
+</body>
+
+</html>
